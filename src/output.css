@@ -393,6 +393,9 @@
   .mt-\[0px\] {
     margin-top: 0px;
   }
+  .mt-\[5px\] {
+    margin-top: 5px;
+  }
   .mt-\[10px\] {
     margin-top: 10px;
   }
@@ -483,11 +486,26 @@
   .ml-\[350px\] {
     margin-left: 350px;
   }
+  .ml-\[360px\] {
+    margin-left: 360px;
+  }
   .ml-\[400px\] {
     margin-left: 400px;
   }
   .ml-\[450px\] {
     margin-left: 450px;
+  }
+  .ml-\[500px\] {
+    margin-left: 500px;
+  }
+  .ml-\[600px\] {
+    margin-left: 600px;
+  }
+  .ml-\[610px\] {
+    margin-left: 610px;
+  }
+  .ml-\[650px\] {
+    margin-left: 650px;
   }
   .ml-\[700px\] {
     margin-left: 700px;
@@ -518,6 +536,12 @@
   }
   .h-\[300px\] {
     height: 300px;
+  }
+  .h-\[400px\] {
+    height: 400px;
+  }
+  .h-\[420px\] {
+    height: 420px;
   }
   .h-\[500\] {
     height: 500;
@@ -567,8 +591,14 @@
   .w-\[30\%\] {
     width: 30%;
   }
+  .w-\[35\%\] {
+    width: 35%;
+  }
   .w-\[40\%\] {
     width: 40%;
+  }
+  .w-\[45\%\] {
+    width: 45%;
   }
   .w-\[50\%\] {
     width: 50%;
@@ -639,6 +669,9 @@
   .justify-center {
     justify-content: center;
   }
+  .gap-\[10px\] {
+    gap: 10px;
+  }
   .gap-\[20px\] {
     gap: 20px;
   }
@@ -683,11 +716,17 @@
   .border-b-\[\#35AFBF\] {
     border-bottom-color: #35AFBF;
   }
+  .bg-\[\#4B4C4C\] {
+    background-color: #4B4C4C;
+  }
   .bg-\[\#35AFBF\] {
     background-color: #35AFBF;
   }
   .bg-\[\#A3E0E8\] {
     background-color: #A3E0E8;
+  }
+  .bg-\[\#D1F4F9\] {
+    background-color: #D1F4F9;
   }
   .bg-\[\#F3FEFF\] {
     background-color: #F3FEFF;
@@ -721,6 +760,9 @@
   }
   .bg-no-repeat {
     background-repeat: no-repeat;
+  }
+  .pt-\[80px\] {
+    padding-top: 80px;
   }
   .pt-\[100px\] {
     padding-top: 100px;
@@ -776,6 +818,10 @@
   .text-\[75px\] {
     font-size: 75px;
   }
+  .leading-10 {
+    --tw-leading: calc(var(--spacing) * 10);
+    line-height: calc(var(--spacing) * 10);
+  }
   .leading-12 {
     --tw-leading: calc(var(--spacing) * 12);
     line-height: calc(var(--spacing) * 12);
@@ -800,6 +846,9 @@
     --tw-font-weight: var(--font-weight-medium);
     font-weight: var(--font-weight-medium);
   }
+  .text-\[\#4B4C4C\] {
+    color: #4B4C4C;
+  }
   .text-\[\#35AFBF\] {
     color: #35AFBF;
   }
@@ -814,6 +863,9 @@
   }
   .text-\[\<\/div\>\] {
     color: </div>;
+  }
+  .text-\[px\] {
+    color: px;
   }
   .text-white {
     color: var(--color-white);
