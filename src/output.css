@@ -12,6 +12,7 @@
     --spacing: 0.25rem;
     --font-weight-medium: 500;
     --font-weight-bold: 700;
+    --font-weight-black: 900;
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
   }
@@ -483,6 +484,9 @@
   .ml-\[300px\] {
     margin-left: 300px;
   }
+  .ml-\[320px\] {
+    margin-left: 320px;
+  }
   .ml-\[350px\] {
     margin-left: 350px;
   }
@@ -537,6 +541,12 @@
   .h-\[300px\] {
     height: 300px;
   }
+  .h-\[350px\] {
+    height: 350px;
+  }
+  .h-\[380px\] {
+    height: 380px;
+  }
   .h-\[400px\] {
     height: 400px;
   }
@@ -581,6 +591,9 @@
   }
   .w-\[10\%\] {
     width: 10%;
+  }
+  .w-\[10\] {
+    width: 10;
   }
   .w-\[20\%\] {
     width: 20%;
@@ -838,6 +851,10 @@
     --tw-leading: calc(var(--spacing) * 20);
     line-height: calc(var(--spacing) * 20);
   }
+  .font-black {
+    --tw-font-weight: var(--font-weight-black);
+    font-weight: var(--font-weight-black);
+  }
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
@@ -852,6 +869,9 @@
   .text-\[\#35AFBF\] {
     color: #35AFBF;
   }
+  .text-\[\#252626\] {
+    color: #252626;
+  }
   .text-\[\#707273\] {
     color: #707273;
   }
@@ -863,6 +883,9 @@
   }
   .text-\[\<\/div\>\] {
     color: </div>;
+  }
+  .text-\[center\] {
+    color: center;
   }
   .text-\[px\] {
     color: px;
