@@ -408,6 +408,9 @@
   .mt-\[40px\] {
     margin-top: 40px;
   }
+  .mt-\[50ox\] {
+    margin-top: 50ox;
+  }
   .mt-\[50px\] {
     margin-top: 50px;
   }
@@ -450,11 +453,26 @@
   .ml-\[150px\] {
     margin-left: 150px;
   }
+  .ml-\[300px\] {
+    margin-left: 300px;
+  }
+  .ml-\[350px\] {
+    margin-left: 350px;
+  }
   .ml-\[400px\] {
     margin-left: 400px;
   }
   .ml-\[450px\] {
     margin-left: 450px;
+  }
+  .ml-\[700px\] {
+    margin-left: 700px;
+  }
+  .ml-\[720px\] {
+    margin-left: 720px;
+  }
+  .ml-\[740px\] {
+    margin-left: 740px;
   }
   .flex {
     display: flex;
@@ -638,8 +656,38 @@
   .bg-amber-400 {
     background-color: var(--color-amber-400);
   }
+  .bg-\[url\(\.\/photo\/\.png\)\] {
+    background-image: url(./photo/.png);
+  }
+  .bg-\[url\(\.\/photo\/BA\.png\)\] {
+    background-image: url(./photo/BA.png);
+  }
+  .bg-\[url\(\.\/photo\/Background\.png\)\] {
+    background-image: url(./photo/Background.png);
+  }
+  .bg-\[url\(\.\/photo\/Background_2\.png\)\] {
+    background-image: url(./photo/Background_2.png);
+  }
+  .bg-\[url\(\.\/photo\/Rectangle_\.png\)\] {
+    background-image: url(./photo/Rectangle_.png);
+  }
+  .bg-\[url\(\.\/photo\/Rectangle_81\.png\)\] {
+    background-image: url(./photo/Rectangle_81.png);
+  }
+  .bg-cover {
+    background-size: cover;
+  }
+  .bg-position-\[100\%_35\%\] {
+    background-position: 100% 35%;
+  }
+  .bg-no-repeat {
+    background-repeat: no-repeat;
+  }
   .pt-\[100px\] {
     padding-top: 100px;
+  }
+  .pt-\[120px\] {
+    padding-top: 120px;
   }
   .pb-\[10px\] {
     padding-bottom: 10px;
